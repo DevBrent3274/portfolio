@@ -7,17 +7,19 @@ body {
   margin: 0;
 }
 
-header {
+a {
+  text-decoration: none;
+}
+
+header, h2 {
+  display:flex;
+  flex-direction: column;
   padding: 40px;
   text-align: center;
   background: #427882;
   color: #fff;
 }
 
-/* 
-What happens when we set the display property to flex? 
-TODO: Write your answer here 
-*/
 nav {
   display: flex;
   background-color: #d8a47f;
@@ -29,11 +31,11 @@ nav a {
   text-decoration: none;
   text-align: center;
 }
+nav a:hover{
+  color:brown;
+  background-color: #fff;
+}
 
-/* 
-What is the flex-wrap property? 
-TODO: Write your answer here 
-*/
 main {
   display: flex;
   flex-wrap: wrap;
@@ -42,23 +44,25 @@ main {
 aside {
   flex: 1;
   background-color: #b9c6ae;
-  padding: 80px;
   text-align: center;
 }
 
-
 footer {
+  display: flex;
   padding: 20px;
   text-align: center;
   background: #13293d;
   color: #fff;
 }
 
-/* 
-What does the justify-content property do? 
-TODO: Write your answer here 
-*/
-.products {
+footer p {
+  color: #fff;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.latestapp {
   flex: 4;
   background-color: #fff;
   padding: 20px;
@@ -67,11 +71,6 @@ TODO: Write your answer here
   justify-content: center;
 }
 
-/* 
-What is the flex property a shorthand property for?
-What is it doing here? 
-TODO: Write your answer here 
-*/
 .card {
   border-style: solid;
   border-width: 1px;
@@ -92,23 +91,20 @@ TODO: Write your answer here
   width: 100%;
 }
 
-.mini-container{
-  border-style: none;
+.projects-aboutme{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;;
   display: flex;
   justify-content: space-between;
 }
-.mini-container section{
+.projects-aboutme section{
   border-style: solid;
   flex: 0 0 45%;
 }
-/* 
-What does the flex-direction property define?
-What is it doing here? 
-TODO: Write your answer here 
-*/
+
 @media screen and (max-width: 768px) {
-  main,
-  nav {
+  header, nav, body, footer{
     flex-direction: column;
   }
 }
