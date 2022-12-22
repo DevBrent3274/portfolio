@@ -37,7 +37,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![portfolio demo](https://github.com/DevBrent3274/portfolio/blob/main/assets/images/Screen%20Shot%202022-12-21%20at%206.19.23%20PM.png?raw=true)
 
 
 
