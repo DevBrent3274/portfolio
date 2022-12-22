@@ -40,5 +40,6 @@ The following animation shows the web application's appearance and functionality
 ![portfolio demo](https://github.com/DevBrent3274/portfolio/blob/main/assets/images/Screen%20Shot%202022-12-21%20at%206.19.23%20PM.png?raw=true)
 
 
-
+## Deployed Link
+[Click here for deployed Portfolio](https://devbrent3274.github.io/portfolio/)
 
